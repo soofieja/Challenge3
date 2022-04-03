@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge 3 sophia vlasveld</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Rubik+Glitch&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100i" rel="stylesheet">
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+
+	</head>
+
+	<body>
+		<div class="header">
+			<img src="images/sx.png">
+		</div>	
+		
+		<div class="container">
+			
+			<div class="item1">
+				<div id="info">
+					<h1>BACK TO 'MERICA</h1>
+					<iframe src="https://giphy.com/embed/uKwa2KiBA0rTy" width="250" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+					<p>Time to plan your 'home'coming <br>
+					Plan your party here</p>
+					<input id="city-input" placeholder="Where do you want to go?" value="Huntsville"/>
+					<button class="button" onclick="getCityFromInput()">time to get lit!</button>
+				</div>		
+			</div>
+
+			<div class="item2">
+				<h2>First things first:</br>Currently weather:</h2>
+				<div id="weather">
+				</div>		
+			</div>
+			
+			<div class="item3">
+				<h2>Nearest beer brewery:</h2>
+				<div id="brewery"></div>
+			</div>
+
+			<div class="item4">
+				<div id="map"></div>	
+			</div>
+		
+		<script src="scripts/js2.js"></script>
+	</body>
+</html>
