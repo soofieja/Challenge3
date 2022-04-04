@@ -18,15 +18,16 @@ h1{
 	font-family: 'Rubik Moonrocks', cursive;
 }
 h2{
-	font-family: 'Rubik', sans-serif;
-	color: black;
+	font-family: 'Rubik Moonrocks', cursive;
+	font-size: 30px;
+	color: #3a2b42;
 }
 
 .item1, .item2,.item3, .item4{
 	background-image: url(../images/ags.png);
 	background-size: cover;
 	align-items: center;
-	min-height: 350px;
+	min-height: 400px;
 	background-color:#f4d4f0;
 	border-radius: 4px;
 	padding: 20px;
@@ -37,25 +38,25 @@ h2{
 #city-input{
 	background-color:#e6e1dd;
 	border: 1px #3a2b42;
-	padding: 15px 32px;
+	padding: 15px 15px;
 	font-family: 'BIZ UDGothic', sans-serif;
 	color: #e00154;
 	text-align: left;
 	text-decoration: none;
-	display: inline-block;
+
 	font-size: 13px;
 	margin: 4px 2px;
 	cursor: pointer;
 }
 .button{
-	background-color:#e00154;
+	background-color:#761e1c;
 	border: none;
 	color: white;
-	padding: 15px 32px;
+	padding: 12px 15px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 12px;
 	margin: 4px 2px;
 	cursor: pointer;
 }
