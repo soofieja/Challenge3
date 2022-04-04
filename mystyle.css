@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+body{
+	width: 100%;
+	background-color: rgb(10,14,38);
+	font-family: 'Rubik', sans-serif;
+	color:  rgb(10,14,38);
+	font-weight: bold;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+
+}
+h1{
+	font-family: 'Rubik Moonrocks', cursive;
+}
+h2{
+	font-family: 'Rubik Moonrocks', cursive;
+	font-size: 30px;
+	color: #3a2b42;
+}
+
+.item1, .item2,.item3, .item4{
+	background-image: url(../images/ags.png);
+	background-size: cover;
+	align-items: center;
+	min-height: 400px;
+	background-color:#f4d4f0;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px;
+	min-width: 300px;
+	height: 200px;
+}
+#city-input{
+	background-color:#e6e1dd;
+	border: 1px #3a2b42;
+	padding: 15px 15px;
+	font-family: 'BIZ UDGothic', sans-serif;
+	color: #e00154;
+	text-align: left;
+	text-decoration: none;
+
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button{
+	background-color:#761e1c;
+	border: none;
+	color: white;
+	padding: 12px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.header img {
+	max-width: 400px;
+	max-height: 400px;
+	position: fixed, center;
+}
+
+
+/* Vanaf mobiel */
+@media  screen and (min-width : 320px){
+ 	.container{
+ 		display: flex;
+		flex-direction: column;
+		margin: 20px;
+ 	}	
+	 .item1, .item2,.item3, .item4{
+		background-image: url(../images/.m.svg);
+		background-size: cover;
+		background-color: rgb(236, 188, 233);
+		border-radius: 20px;
+		padding: 20px;
+		margin: 20px;
+	}
+}
+
+/* Vanaf Tablets */
+@media  screen and (min-width : 480px){
+ 	body{
+ 		background-color: #222337;
+ 	}
+ 	.container{
+ 		display: flex;
+		flex-direction: column;
+		margin: 20px;
+ 	}
+}
+
+/* Vanaf Medium Devices, Desktops/ tablet liggend */
+@media screen and (min-width : 768px){
+	body{
+		background-color: #3a2b42;
+	}
+	.container{
+ 		display: flex;
+		flex-direction: row;
+		margin: 20px;
+	}
+}
+
+/* Vanaf Large Devices, Wide Screens */
+@media screen and (min-width : 1024px){
+	.container{
+ 		display: flex;
+		flex-direction: row;
+		margin: 40px;
+	}		
+}	
+
+
+
+
+.hidden {
+	display: none;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	padding: ;
+}
+
+
+
