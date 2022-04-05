@@ -85,7 +85,6 @@ h2{
 	}
 }
 
-
 /* Vanaf Tablets */
 @media  screen and (min-width : 480px){
  	body{
@@ -127,8 +126,10 @@ h2{
 }
 
 #map {
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	padding: ;
 }
 
 

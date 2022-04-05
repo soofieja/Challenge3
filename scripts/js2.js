@@ -66,6 +66,7 @@ function onWeatherSucces(response) {
 		style: 'mapbox://styles/mapbox/streets-v9', // style URL
 		center: coords, // starting position [lng, lat]
 		zoom: 7 // starting zoom
+		
 	});
 
 	// Create a default Marker and add it to the map.
